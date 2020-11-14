@@ -73,6 +73,14 @@ h1 {
     color: white;
 }
 
+/* ----- IMAGES ----- */
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
 /* -------------------------------------- */
 /* HEADER */
 /* -------------------------------------- */
@@ -91,4 +99,29 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.main-nav {
+    float: right;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    margin-left: 25px;
+    padding: 10px 0px;
+    transition: border 0.2s;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav li a:hover {
+    border-bottom: 2px solid #e67e22;
 }
